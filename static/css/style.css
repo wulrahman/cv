@@ -1,0 +1,134 @@
+body {
+    background: linear-gradient( to bottom, #3F51B5, #2196F3 );
+    /* font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif; */
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 90%;
+}
+
+#star-svg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    /* height: 150px; */
+    margin: -75px 0 0 -75px;
+}
+
+div#svg_container {
+    height: 100vh;
+}
+
+div#down-icon {
+    width: 50px;
+    height: max-content;
+    color: #ffffff;
+}
+
+div#down-icon svg {
+    display: block;
+}
+
+div#down-icon {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -35.15px;
+}
+
+div#main-content {
+    min-height: 100vh;
+    /* background-color: #2a5dc6; */
+    /* padding: 40px; */
+    display: grid;
+    grid-gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+div#background-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgb(124 115 115 / 50%);
+}
+
+.grid_experience_education li.grid-item {
+    line-height: 1.42857;
+}
+
+.grid_experience_education li.grid-item .logo_main {
+    height: 56px;
+    width: 56px;
+}
+
+.grid_experience_education li.grid-item .logo_main img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid_experience_education li.grid-item .time-date {
+    font-size: 100%;
+    color: rgb(102 102 102);
+    font-weight: 400;
+}
+
+.grid_experience_education li.grid-item h4.time-date, .grid_experience_education li.grid-item h3.job-title, .grid_experience_education li.grid-item div.company-name, .grid_experience_education li.grid-item h3.academy-name{
+    margin: 0;
+    padding: 0;
+}
+
+.grid_experience_education ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.grid_experience_education ul li.grid-item {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 70px;
+    grid-gap: 10px;
+}
+.grid_experience_education div.description {
+    display: grid;
+    grid-gap: 5px;
+}
+
+.skill_list_main ol.skill_list {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fill, calc(50% - 5px));
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    grid-gap: 5px;
+    grid-auto-columns: minmax(200px, auto);
+}
+
+div#education_main {
+}
+
+div.work_experience_main {
+    background-color: white;
+    padding: 20px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.skills_main {
+    background-color: white;
+    padding: 10px 30px 30px 30px;
+    display: grid;
+    grid-gap: 20px;
+}
+.work_experience_main h2.title {
+    margin: 0;
+}
